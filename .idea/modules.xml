@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExpandableAnimationLayout.iml" filepath="$PROJECT_DIR$/ExpandableAnimationLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ExpandableAnimationLayout.iml" filepath="$PROJECT_DIR$/.idea/ExpandableAnimationLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ExpandableAnimationLayout.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ExpandableAnimationLayout.app.iml" />
     </modules>
   </component>
 </project>

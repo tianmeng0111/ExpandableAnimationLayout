@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/tv_edit_title"
+        style="@style/EditTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:text="title" />
+
+    <EditText
+        android:id="@+id/et_edit_content"
+        style="@style/EditTitleStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="right"
+        android:hint="请输入"
+        android:maxEms="50"
+        android:singleLine="true"
+        android:textColorHint="@color/hint_edit" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/EditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="right"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:visibility="gone"/>
+
+</merge>

@@ -46,11 +46,7 @@
 
         </LinearLayout>
 
-
-
     </RelativeLayout>
-
-
 
     <!--测试布局-->
     <LinearLayout
@@ -73,6 +69,108 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="其他功能"
+            android:textSize="14sp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:checked="true"/>
+
+    </LinearLayout>
+
+<!--    下面是渐变展开的布局-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <com.tm.expandableanimationlayout.EditTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:edit_enabled="false"
+            app:title_text="title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_edit" />
+
+        <com.tm.expandableanimationlayout.EditTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:edit_enabled="false"
+            app:title_text="title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_edit" />
+
+<!--   ExpandableAnimationLayout1内控件都进行展开     -->
+
+        <com.tm.expandableanimationlayout.ExpandableAnimationLayout1
+            android:id="@+id/expandable_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.tm.expandableanimationlayout.EditTextView
+                    android:id="@+id/etview_machine_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:edit_enabled="false"
+                    app:title_text="title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_edit" />
+
+                <com.tm.expandableanimationlayout.EditTextView
+                    android:id="@+id/etview_zhizaochang_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:edit_enabled="false"
+                    app:title_text="title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_edit" />
+
+                <com.tm.expandableanimationlayout.EditTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:edit_enabled="false"
+                    app:title_text="title" />
+
+            </LinearLayout>
+
+        </com.tm.expandableanimationlayout.ExpandableAnimationLayout1>
 
     </LinearLayout>
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EditTextView">
+        <attr name="title_text" format="string" />
+        <attr name="edit_hint" format="string" />
+        <attr name="edit_text" format="string" />
+        <attr name="edit_enabled" format="boolean" />
+
+        <attr name="edit_input_type_number" format="boolean" />
+    </declare-styleable>
+</resources>
